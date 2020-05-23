@@ -118,7 +118,8 @@ class GFG:
             if s2_stop:
                 self.stop(self)
             if s2_status ==  False:
-                s2_status = s1_status = s3_status = s4_status = False
+                s2_status = True
+                s1_status = s3_status = s4_status = False
                 arduino.write(str.encode('Passing by S2 \r'))
 
 
