@@ -137,10 +137,11 @@ class GFG:
                 s1_status = True
                 s2_status = s3_status = s4_status = False
                 arduino.write(str.encode('Passing by S1 \r'))
-            if x2 == s1_x1:
-                self.x = 0
         else:
             s1_status = False
+        if x1 == s1_x1:
+            self.x = 0
+        
 
 
         if x1 < s2_x1 and x2 > s2_x2:
@@ -163,7 +164,7 @@ class GFG:
         else:
             s3_status = False
 
-        if x1 == s4_x2:
+        if x2 == s4_x2:
             if s4_status ==  False:
                 s4_status = True
                 s2_status = s3_status = s1_status = False

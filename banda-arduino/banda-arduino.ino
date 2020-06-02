@@ -6,7 +6,7 @@ void setup() {
   Serial1.begin(9600);
   Serial.println("Bienvenido!");
   Serial.println("Oprima la tecla B para empezar a correr la banda");
-  Serial.println("Oprima la tecla S para empezar a correr la banda");
+  Serial.println("Oprima la tecla S para detener la banda");
   Serial.println("Oprima la tecla 1 para ir a S1");
   Serial.println("Oprima la tecla 2 para ir a S2");
   Serial.println("Oprima la tecla 3 para ir a S3");
